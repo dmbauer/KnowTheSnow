@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dmbauer.knowthesnow.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/hood_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MountainButtons"
+                android:text="@string/mt_hood"
+                android:onClick="mountHoodToast"/>
+
+            <Button
+                android:id="@+id/adams_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MountainButtons"
+                android:text="@string/mt_adams"
+                android:onClick="mountAdamsToast"/>
+
+            <Button
+                android:id="@+id/helens_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MountainButtons"
+                android:text="@string/mt_st_helens"
+                android:onClick="mountHelensToast"/>
+
+            <Button
+                android:id="@+id/rainier_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MountainButtons"
+                android:text="@string/mt_rainier"
+                android:onClick="mountRainierToast"/>
+
+            <Button
+                android:id="@+id/bachelor_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MountainButtons"
+                android:text="@string/mt_bachelor"
+                android:onClick="mountBachelorToast"/>
+
+            <Button
+                android:id="@+id/shasta_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/MountainButtons"
+                android:text="@string/mt_shasta"
+                android:onClick="mountShastaToast"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

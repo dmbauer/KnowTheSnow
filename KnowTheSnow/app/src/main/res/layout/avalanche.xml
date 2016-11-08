@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mt_hood"
+        android:textSize="45sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danger rose for Monday, November 7th"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:layout_margin="16dp"
+        android:background="#E0E0E0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/danger_rose"/>
+
+
+
+</LinearLayout>

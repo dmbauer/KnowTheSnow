@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recent snow fall"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_margin="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="12dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="74dp"
+            android:src="@drawable/snowflake"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="Timberline Lodge"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Since 5AM: 0&quot;   24HRS: 0&quot;   72HRS: 1&quot;"
+                android:textColor="@android:color/white"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="YTD: 32&quot;   Base: 0&quot;   Mid: 3&quot;"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="12dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="74dp"
+            android:src="@drawable/snowflake"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="Mt Hood Meadows"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="12HR: 0&quot;   24HRS: 0&quot;   48HRS: 1&quot;"
+                android:textColor="@android:color/white"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="YTD: 12&quot;   Base: 0&quot;   Mid: 3&quot;"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
